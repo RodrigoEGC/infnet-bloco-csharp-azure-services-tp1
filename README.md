@@ -13,3 +13,5 @@ O projeto entregue deve conter um arquivo ReadMe.md contendo a URL do serviço h
 * Rodrigo Araújo
 
 ## [Screenshots]()
+
+*Acesso clique aqui https://teste-perfomance-tp1-infnet.azurewebsites.net
