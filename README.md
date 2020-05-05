@@ -14,4 +14,5 @@ O projeto entregue deve conter um arquivo ReadMe.md contendo a URL do serviço h
 
 ## [Screenshots]()
 
+*Preview https://user-images.githubusercontent.com/41798833/81029197-691e0f80-8e5a-11ea-9a18-a6872bfe01cc.png
 *Acesso clique aqui https://teste-perfomance-tp1-infnet.azurewebsites.net
