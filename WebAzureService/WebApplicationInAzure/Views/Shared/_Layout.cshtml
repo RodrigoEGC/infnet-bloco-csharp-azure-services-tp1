@@ -1,0 +1,186 @@
+﻿
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>TP1 Desenvolvimento com serviços WCF e Microsoft Azure</title>
+    <meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="~/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/dist/css/modern-business.css" rel="stylesheet">
+    <link href="~/dist/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    @RenderBody()
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TP1 Desenvolvimento com serviços WCF e Microsoft Azure</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="saas.cshtml">SaaS</a>
+                    </li>
+                    <li>
+                        <a href="paas.cshtml">PaaS</a>
+                    </li>
+                    <li>
+                        <a href="iass.cshtml">IaaS</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill">
+                    <img src="~/dist/images/office365-vs-gsuite.png"/>
+                </div>
+                <div class="carousel-caption">
+                    <h2>GSuite e Office 365 - Exemplo de serviço SaaS</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill">
+                    <img src="~/dist/images/Logotype_RH_OpenShiftContainerStorage_RGB_Black.svg"/>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Red Hat OpenShift - Exemplo de serviço PaaS</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill">
+                    <img src="~/dist/images/azure-aws.png" />
+                </div>
+                <div class="carousel-caption">
+                    <h2>Aws e Azure - Exemplo de serviço IaaS</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Entendo os modelos de nuvens e suas finalidades
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i>Software como serviço (SaaS)</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>SaaS é a disponibilização de um software como um serviço, em oposição ao modelo tradicional de venda de licenças e unidade.
+                        O usúario paga uma assinatura apenas enquanto utiliza o produto.</p>
+                        <a href="#" class="btn btn-default">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Plataforma como serviço (PaaS)</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Considerado um meio termo entre IaaS e SaaS, o PaaS é a disponibilização de uma plataforma de desenvolvimento, testes e implementações de aplicações de forma simplificada, sem a
+                        necessidade de configurar uma infraestrutura.</p>
+                        <a href="#" class="btn btn-default">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Infraesturura como serviço (IaaS)</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>O IaaS é a terceirização de servidores e data centers para um fornecedor externo. Uma empresa contrata uma capacidade de hardware que corresponde a memória, armazenamento, processamento, tudo de forma escalável pela núvem.
+                        Podem entrar nesse pacote de contratações os servidores, roteadores, racks, entre outros.</p>
+                        <a href="#" class="btn btn-default">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Espaço reservado para upload de fotos, videos e pdfs.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-primary btn-block" href="#">Em construção</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Rodrigo Araujo | <a href="https://rodrigoegc.github.io/portifolio/" target="_blank" rel="nofollow">Desenvolvedor de Sistemas Web</a></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="~/dist/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/dist/js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+
+</body>
+
+</html>
